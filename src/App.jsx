@@ -95,13 +95,13 @@ function App() {
     <>
       <h1>Online Shop</h1>
       <div className="row">
-        <ProductList items={products} onMove={moveToCart} />
+        <ProductList items = {products} onMove = {moveToCart} />
 
         <Basket
-          cart={basket}
-          onAdd={handleAdd}
-          onSub={handleSub}
-          onRemove={remove}
+          cart = {basket}
+          onAdd = {handleAdd}
+          onSub = {handleSub}
+          onRemove = {remove}
         />
       </div>
     </>
